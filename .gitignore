@@ -1,0 +1,55 @@
+# ===== Environnements virtuels =====
+venv/
+.venv/
+env/
+ENV/
+
+# ===== Caches Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ===== Packaging =====
+build/
+dist/
+*.egg-info/
+*.egg
+
+# ===== Rapports de test =====
+test-results/
+playwright-report/
+allure-results/
+allure-report/
+reports/
+report.html
+
+# ===== Coverage =====
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# ===== Variables d'environnement =====
+.env
+.env.local
+.env.*.local
+
+# ===== IDE / Éditeurs =====
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== Logs & artefacts de debug =====
+*.log
+logs/
+screenshots/
+traces/
